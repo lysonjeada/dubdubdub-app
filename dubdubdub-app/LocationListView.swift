@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  LocationListView.swift
 //  dubdubdub-app
 //
 //  Created by Amaryllis Rosemaria Baldrez Calefi on 29/07/24.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct LocationListView: View {
     var body: some View {
-        AppTabView()
+        Text("Location List")
     }
 }
 
 #Preview {
-    ContentView()
+    LocationListView()
 }

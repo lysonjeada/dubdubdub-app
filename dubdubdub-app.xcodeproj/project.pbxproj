@@ -13,8 +13,12 @@
 		24BA82612C5868EC00620FE7 /* dubdubdub_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA82602C5868EC00620FE7 /* dubdubdub_appTests.swift */; };
 		24BA826B2C5868EC00620FE7 /* dubdubdub_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA826A2C5868EC00620FE7 /* dubdubdub_appUITests.swift */; };
 		24BA826D2C5868EC00620FE7 /* dubdubdub_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA826C2C5868EC00620FE7 /* dubdubdub_appUITestsLaunchTests.swift */; };
-		24BA827B2C586BB400620FE7 /* project-assets in Resources */ = {isa = PBXBuildFile; fileRef = 24BA827A2C586BB400620FE7 /* project-assets */; };
-		24BA827D2C586CDD00620FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BA827C2C586CDD00620FE7 /* Assets.xcassets */; };
+		24BA827F2C5874A800620FE7 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA827E2C5874A800620FE7 /* Color+Ext.swift */; };
+		24BA82832C58766400620FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BA82822C58766400620FE7 /* Assets.xcassets */; };
+		24BA82852C58769F00620FE7 /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA82842C58769F00620FE7 /* AppTabView.swift */; };
+		24BA82872C5876FC00620FE7 /* LocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA82862C5876FC00620FE7 /* LocationMapView.swift */; };
+		24BA82892C58772F00620FE7 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA82882C58772F00620FE7 /* LocationListView.swift */; };
+		24BA828B2C58774200620FE7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA828A2C58774200620FE7 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +49,12 @@
 		24BA826A2C5868EC00620FE7 /* dubdubdub_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dubdubdub_appUITests.swift; sourceTree = "<group>"; };
 		24BA826C2C5868EC00620FE7 /* dubdubdub_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dubdubdub_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		24BA82792C58694200620FE7 /* dubdubdub-app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "dubdubdub-app.entitlements"; sourceTree = "<group>"; };
-		24BA827A2C586BB400620FE7 /* project-assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "project-assets"; path = "../../../Downloads/project-assets"; sourceTree = "<group>"; };
-		24BA827C2C586CDD00620FE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24BA827E2C5874A800620FE7 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		24BA82822C58766400620FE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24BA82842C58769F00620FE7 /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
+		24BA82862C5876FC00620FE7 /* LocationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapView.swift; sourceTree = "<group>"; };
+		24BA82882C58772F00620FE7 /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
+		24BA828A2C58774200620FE7 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,16 @@
 		24BA824E2C5868EA00620FE7 /* dubdubdub-app */ = {
 			isa = PBXGroup;
 			children = (
-				24BA827C2C586CDD00620FE7 /* Assets.xcassets */,
-				24BA827A2C586BB400620FE7 /* project-assets */,
+				24BA82822C58766400620FE7 /* Assets.xcassets */,
 				24BA82792C58694200620FE7 /* dubdubdub-app.entitlements */,
 				24BA824F2C5868EA00620FE7 /* dubdubdub_appApp.swift */,
 				24BA82512C5868EA00620FE7 /* ContentView.swift */,
 				24BA82552C5868EC00620FE7 /* Preview Content */,
+				24BA827E2C5874A800620FE7 /* Color+Ext.swift */,
+				24BA82842C58769F00620FE7 /* AppTabView.swift */,
+				24BA82862C5876FC00620FE7 /* LocationMapView.swift */,
+				24BA82882C58772F00620FE7 /* LocationListView.swift */,
+				24BA828A2C58774200620FE7 /* ProfileView.swift */,
 			);
 			path = "dubdubdub-app";
 			sourceTree = "<group>";
@@ -236,9 +248,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24BA82832C58766400620FE7 /* Assets.xcassets in Resources */,
 				24BA82572C5868EC00620FE7 /* Preview Assets.xcassets in Resources */,
-				24BA827D2C586CDD00620FE7 /* Assets.xcassets in Resources */,
-				24BA827B2C586BB400620FE7 /* project-assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +276,11 @@
 			files = (
 				24BA82522C5868EA00620FE7 /* ContentView.swift in Sources */,
 				24BA82502C5868EA00620FE7 /* dubdubdub_appApp.swift in Sources */,
+				24BA82872C5876FC00620FE7 /* LocationMapView.swift in Sources */,
+				24BA82892C58772F00620FE7 /* LocationListView.swift in Sources */,
+				24BA82852C58769F00620FE7 /* AppTabView.swift in Sources */,
+				24BA828B2C58774200620FE7 /* ProfileView.swift in Sources */,
+				24BA827F2C5874A800620FE7 /* Color+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

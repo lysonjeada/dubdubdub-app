@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ProfileView.swift
 //  dubdubdub-app
 //
 //  Created by Amaryllis Rosemaria Baldrez Calefi on 29/07/24.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ProfileView: View {
     var body: some View {
-        AppTabView()
+        Text("Profile View")
     }
 }
 
 #Preview {
-    ContentView()
+    ProfileView()
 }
