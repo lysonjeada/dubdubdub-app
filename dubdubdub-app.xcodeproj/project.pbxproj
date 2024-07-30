@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24BA82502C5868EA00620FE7 /* dubdubdub_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA824F2C5868EA00620FE7 /* dubdubdub_appApp.swift */; };
+		24BA82522C5868EA00620FE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA82512C5868EA00620FE7 /* ContentView.swift */; };
+		24BA82572C5868EC00620FE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BA82562C5868EC00620FE7 /* Preview Assets.xcassets */; };
+		24BA82612C5868EC00620FE7 /* dubdubdub_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA82602C5868EC00620FE7 /* dubdubdub_appTests.swift */; };
+		24BA826B2C5868EC00620FE7 /* dubdubdub_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA826A2C5868EC00620FE7 /* dubdubdub_appUITests.swift */; };
+		24BA826D2C5868EC00620FE7 /* dubdubdub_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA826C2C5868EC00620FE7 /* dubdubdub_appUITestsLaunchTests.swift */; };
+		24BA827B2C586BB400620FE7 /* project-assets in Resources */ = {isa = PBXBuildFile; fileRef = 24BA827A2C586BB400620FE7 /* project-assets */; };
+		24BA827D2C586CDD00620FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BA827C2C586CDD00620FE7 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24BA825D2C5868EC00620FE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24BA82442C5868EA00620FE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24BA824B2C5868EA00620FE7;
+			remoteInfo = "dubdubdub-app";
+		};
+		24BA82672C5868EC00620FE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24BA82442C5868EA00620FE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24BA824B2C5868EA00620FE7;
+			remoteInfo = "dubdubdub-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24BA824C2C5868EA00620FE7 /* dubdubdub-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dubdubdub-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24BA824F2C5868EA00620FE7 /* dubdubdub_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dubdubdub_appApp.swift; sourceTree = "<group>"; };
+		24BA82512C5868EA00620FE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		24BA82562C5868EC00620FE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		24BA825C2C5868EC00620FE7 /* dubdubdub-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dubdubdub-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24BA82602C5868EC00620FE7 /* dubdubdub_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dubdubdub_appTests.swift; sourceTree = "<group>"; };
+		24BA82662C5868EC00620FE7 /* dubdubdub-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dubdubdub-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24BA826A2C5868EC00620FE7 /* dubdubdub_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dubdubdub_appUITests.swift; sourceTree = "<group>"; };
+		24BA826C2C5868EC00620FE7 /* dubdubdub_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dubdubdub_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24BA82792C58694200620FE7 /* dubdubdub-app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "dubdubdub-app.entitlements"; sourceTree = "<group>"; };
+		24BA827A2C586BB400620FE7 /* project-assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "project-assets"; path = "../../../Downloads/project-assets"; sourceTree = "<group>"; };
+		24BA827C2C586CDD00620FE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24BA82492C5868EA00620FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BA82592C5868EC00620FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BA82632C5868EC00620FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24BA82432C5868EA00620FE7 = {
+			isa = PBXGroup;
+			children = (
+				24BA824E2C5868EA00620FE7 /* dubdubdub-app */,
+				24BA825F2C5868EC00620FE7 /* dubdubdub-appTests */,
+				24BA82692C5868EC00620FE7 /* dubdubdub-appUITests */,
+				24BA824D2C5868EA00620FE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24BA824D2C5868EA00620FE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24BA824C2C5868EA00620FE7 /* dubdubdub-app.app */,
+				24BA825C2C5868EC00620FE7 /* dubdubdub-appTests.xctest */,
+				24BA82662C5868EC00620FE7 /* dubdubdub-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24BA824E2C5868EA00620FE7 /* dubdubdub-app */ = {
+			isa = PBXGroup;
+			children = (
+				24BA827C2C586CDD00620FE7 /* Assets.xcassets */,
+				24BA827A2C586BB400620FE7 /* project-assets */,
+				24BA82792C58694200620FE7 /* dubdubdub-app.entitlements */,
+				24BA824F2C5868EA00620FE7 /* dubdubdub_appApp.swift */,
+				24BA82512C5868EA00620FE7 /* ContentView.swift */,
+				24BA82552C5868EC00620FE7 /* Preview Content */,
+			);
+			path = "dubdubdub-app";
+			sourceTree = "<group>";
+		};
+		24BA82552C5868EC00620FE7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				24BA82562C5868EC00620FE7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		24BA825F2C5868EC00620FE7 /* dubdubdub-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				24BA82602C5868EC00620FE7 /* dubdubdub_appTests.swift */,
+			);
+			path = "dubdubdub-appTests";
+			sourceTree = "<group>";
+		};
+		24BA82692C5868EC00620FE7 /* dubdubdub-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24BA826A2C5868EC00620FE7 /* dubdubdub_appUITests.swift */,
+				24BA826C2C5868EC00620FE7 /* dubdubdub_appUITestsLaunchTests.swift */,
+			);
+			path = "dubdubdub-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24BA824B2C5868EA00620FE7 /* dubdubdub-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24BA82702C5868EC00620FE7 /* Build configuration list for PBXNativeTarget "dubdubdub-app" */;
+			buildPhases = (
+				24BA82482C5868EA00620FE7 /* Sources */,
+				24BA82492C5868EA00620FE7 /* Frameworks */,
+				24BA824A2C5868EA00620FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dubdubdub-app";
+			productName = "dubdubdub-app";
+			productReference = 24BA824C2C5868EA00620FE7 /* dubdubdub-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24BA825B2C5868EC00620FE7 /* dubdubdub-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24BA82732C5868EC00620FE7 /* Build configuration list for PBXNativeTarget "dubdubdub-appTests" */;
+			buildPhases = (
+				24BA82582C5868EC00620FE7 /* Sources */,
+				24BA82592C5868EC00620FE7 /* Frameworks */,
+				24BA825A2C5868EC00620FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24BA825E2C5868EC00620FE7 /* PBXTargetDependency */,
+			);
+			name = "dubdubdub-appTests";
+			productName = "dubdubdub-appTests";
+			productReference = 24BA825C2C5868EC00620FE7 /* dubdubdub-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24BA82652C5868EC00620FE7 /* dubdubdub-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24BA82762C5868EC00620FE7 /* Build configuration list for PBXNativeTarget "dubdubdub-appUITests" */;
+			buildPhases = (
+				24BA82622C5868EC00620FE7 /* Sources */,
+				24BA82632C5868EC00620FE7 /* Frameworks */,
+				24BA82642C5868EC00620FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24BA82682C5868EC00620FE7 /* PBXTargetDependency */,
+			);
+			name = "dubdubdub-appUITests";
+			productName = "dubdubdub-appUITests";
+			productReference = 24BA82662C5868EC00620FE7 /* dubdubdub-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24BA82442C5868EA00620FE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					24BA824B2C5868EA00620FE7 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					24BA825B2C5868EC00620FE7 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 24BA824B2C5868EA00620FE7;
+					};
+					24BA82652C5868EC00620FE7 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 24BA824B2C5868EA00620FE7;
+					};
+				};
+			};
+			buildConfigurationList = 24BA82472C5868EA00620FE7 /* Build configuration list for PBXProject "dubdubdub-app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24BA82432C5868EA00620FE7;
+			productRefGroup = 24BA824D2C5868EA00620FE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24BA824B2C5868EA00620FE7 /* dubdubdub-app */,
+				24BA825B2C5868EC00620FE7 /* dubdubdub-appTests */,
+				24BA82652C5868EC00620FE7 /* dubdubdub-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24BA824A2C5868EA00620FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24BA82572C5868EC00620FE7 /* Preview Assets.xcassets in Resources */,
+				24BA827D2C586CDD00620FE7 /* Assets.xcassets in Resources */,
+				24BA827B2C586BB400620FE7 /* project-assets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BA825A2C5868EC00620FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BA82642C5868EC00620FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24BA82482C5868EA00620FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24BA82522C5868EA00620FE7 /* ContentView.swift in Sources */,
+				24BA82502C5868EA00620FE7 /* dubdubdub_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BA82582C5868EC00620FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24BA82612C5868EC00620FE7 /* dubdubdub_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BA82622C5868EC00620FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24BA826D2C5868EC00620FE7 /* dubdubdub_appUITestsLaunchTests.swift in Sources */,
+				24BA826B2C5868EC00620FE7 /* dubdubdub_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24BA825E2C5868EC00620FE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24BA824B2C5868EA00620FE7 /* dubdubdub-app */;
+			targetProxy = 24BA825D2C5868EC00620FE7 /* PBXContainerItemProxy */;
+		};
+		24BA82682C5868EC00620FE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24BA824B2C5868EA00620FE7 /* dubdubdub-app */;
+			targetProxy = 24BA82672C5868EC00620FE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24BA826E2C5868EC00620FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24BA826F2C5868EC00620FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24BA82712C5868EC00620FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "dubdubdub-app/dubdubdub-app.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dubdubdub-app/Preview Content\"";
+				DEVELOPMENT_TEAM = Y9Y27K9ZT7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lys.com.dubdubdub-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24BA82722C5868EC00620FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "dubdubdub-app/dubdubdub-app.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dubdubdub-app/Preview Content\"";
+				DEVELOPMENT_TEAM = Y9Y27K9ZT7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lys.com.dubdubdub-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24BA82742C5868EC00620FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lys.com.dubdubdub-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dubdubdub-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dubdubdub-app";
+			};
+			name = Debug;
+		};
+		24BA82752C5868EC00620FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lys.com.dubdubdub-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dubdubdub-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dubdubdub-app";
+			};
+			name = Release;
+		};
+		24BA82772C5868EC00620FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lys.com.dubdubdub-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dubdubdub-app";
+			};
+			name = Debug;
+		};
+		24BA82782C5868EC00620FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lys.com.dubdubdub-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dubdubdub-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24BA82472C5868EA00620FE7 /* Build configuration list for PBXProject "dubdubdub-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24BA826E2C5868EC00620FE7 /* Debug */,
+				24BA826F2C5868EC00620FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24BA82702C5868EC00620FE7 /* Build configuration list for PBXNativeTarget "dubdubdub-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24BA82712C5868EC00620FE7 /* Debug */,
+				24BA82722C5868EC00620FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24BA82732C5868EC00620FE7 /* Build configuration list for PBXNativeTarget "dubdubdub-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24BA82742C5868EC00620FE7 /* Debug */,
+				24BA82752C5868EC00620FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24BA82762C5868EC00620FE7 /* Build configuration list for PBXNativeTarget "dubdubdub-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24BA82772C5868EC00620FE7 /* Debug */,
+				24BA82782C5868EC00620FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24BA82442C5868EA00620FE7 /* Project object */;
+}
